@@ -192,6 +192,7 @@ What command can be used to exit the Python interpreter?
 Answer:
 
 Exit ()
+Quit ()
 
 
 _________________________________________________________________________
