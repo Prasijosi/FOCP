@@ -74,7 +74,7 @@ What is the name given to the values that are passed to a function within the pa
 Answer: Parameters or arguements
  
 What is the purpose of the built-in input() function?
-Answer:
+Answer: Its purpose is to take input values from the user.
  
 What is the data-type of the value returned by the input() function?
 Answer:String
