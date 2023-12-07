@@ -163,7 +163,7 @@ Write a small Python program that prints your name to the screen 100 times, then
 Answer:
 count = 0
 while count < 100:
-    print("Aastha")
+    print("Prashiddha")
     count += 1
 ________________________________________________________________________
 What would be the output shown following the execution of the following Python statements?
