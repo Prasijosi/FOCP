@@ -38,7 +38,67 @@ print(area_of_circle)
 #6
 name = "Prashiddha Joshi"
 age = 19
-string_formatting = "{name:@^15} - {age:#^10}".format(name=name, age=age)
+string_formatting = "{name:@^15} {age:#^10}".format(name=name, age=age)
 print(string_formatting)
+# Prashiddha Joshi ####19####
+
+#7
+with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
+    for line in file:
+        print(line,end='')
+
+# This is a text file
+# It contains multiple lines of text
+# This is the final line within the file>>>
 
 
+#8
+with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
+    first_line = file.readline().strip()
+    second_line = file.readline().strip()
+    third_line = file.readline().strip()
+    
+print(first_line)
+print(second_line)
+print(third_line)
+# This is a text file
+# It contains multiple lines of text
+# This is the final line within the file
+
+#9
+with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
+    for line in file:
+        print(line.strip())
+# This is a text file
+# It contains multiple lines of text
+# This is the final line within the file
+
+#10
+with open(r'C:\Users\ace\Desktop\info.txt', 'a') as file:
+    file.write("Prashiddha Joshi says hello....\n")
+age = 19
+with open(r'C:\Users\ace\Desktop\info.txt', 'a') as file:
+    file.write(str(age) + "\n")
+# This is a text file
+# It contains multiple lines of text
+# This is the final line within the file
+# Prashiddha Joshi says hello....
+# 19
+
+#11
+with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
+    for line in file:
+        print(line.strip())
+# This is a text file
+# It contains multiple lines of text
+# This is the final line within the file
+# Prashiddha Joshi says hello....
+# 19
+
+#12
+# f-strings: String formatting feature in Python, introduced in 3.6, allowing expressions inside curly braces within strings.
+# Format Specifier: Controls the formatting of values within strings, specified after a colon inside curly braces in an f-string.
+# File Modes: Indicate the operations that can be performed on a file, such as read ('r'), write ('w'), or append ('a').
+# Binary Files: Handling non-text data in files by opening them in binary mode ('b'), commonly used for images or executables.
+# Random Access: Refers to the ability to access data at any position in a file, facilitated by methods like seek().
+# Exceptions: Events that disrupt the normal flow of a program, handled using try, except, else, and finally blocks for error management.
