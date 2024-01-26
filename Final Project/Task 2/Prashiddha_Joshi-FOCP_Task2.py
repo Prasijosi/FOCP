@@ -58,7 +58,6 @@ def cat_visit_log(cat_records):
     # Calculate average visit duration by our cat
     average_visit_duration = total_minutes / our_cat_visits if our_cat_visits else 0
 
-    # Print the log file analysis results
     print("*****************")
     print("Log File Analysis")
     print("*****************")
