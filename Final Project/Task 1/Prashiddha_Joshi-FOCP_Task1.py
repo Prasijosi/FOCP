@@ -13,7 +13,7 @@ def BPP_Pizza_Calc():
     print("******************************")
     print("******************************")
 
-# Loop until valid input
+# Loop until we get valid input
     while True:  
         try:
             num_of_pizzas = int(input("How many pizzas ordered? "))
